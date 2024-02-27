@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>HTML1</title>
+    <style>
+    .navbar{
+        background: linear-gradient(90deg, rgba(1, 0, 0, 0.652) 0%, rgba(103, 103, 103, 0.701) 100%);
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.437);
+        width: 100%;
+        height: 15vh;
+        align-items:center; 
+        display:flex; 
+        justify-content:center;
+        text-align: center;
+    }
+
+    .body{
+        display: flex;
+    }
+
+    .maincontent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+    }
+
+    .sidebar1{
+        float: left;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        text-align: center;
+        display: flex;
+    }
+
+    .sidebar2{
+        float: right;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        text-align: center;
+        display: flex;
+    }
+     .sidebar1, .sidebar2{
+        width: 15%;
+        background-color: rgba(242, 242, 242, 0.652);
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.437);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .maincontent{
+        width: 100%;
+        height: 62.5vh;
+        background-color: rgb(108, 108, 108);
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.437);
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .footer{
+        background: linear-gradient(90deg, rgba(90, 89, 89, 0.652) 0%, rgba(75, 75, 75, 0.701) 100%);
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.437);
+        width: 100%;
+        height: 15vh;
+        align-items:center; 
+        display:flex; 
+        justify-content:center;
+        text-align: center;
+    }
+
+    .container{
+        background-color: rgb(123, 123, 122);
+        backdrop-filter: blur(20px);
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.437);
+        height: 70vh;
+    }
+
+    .body{
+        align-items: center;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- nabvar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-md-5">
+            <a class="navbar-brand fw-bold text-light fs-4">MARC POGI</a>
+    </nav>
+<br>
+<div class="container">
+    <!-- sidebar -->
+    <div class="sidebar1 fw-bold text-light fs-4">MARC<button class="btn fw-bold text-light fs-4">BUTTON</button></div>
+    <div class="sidebar2 fw-bold text-light fs-4">JEZA<button class="btn fw-bold text-light fs-4">BUTTON</button></div>
+    <!-- main content -->
+    <div class="body">
+        <div class="maincontent fw-bold text-light fs-4">MARC LUMABE</div>
+    </div>
+
+</div>
+<br>
+    <!-- footer -->
+    <div class="footer fw-bold text-light fs-4">JEZAAA</div>
+    
+</body>
+</html>
